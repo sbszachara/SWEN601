@@ -1,0 +1,8 @@
+a. How is this lab an example of reuse through inheritance?
+
+When creating the Type class that extends Pokemon, which is the Parent class, they are the children of this parent class, and therefore inherit the methods and variables from the Parent class, which allows the Type class to reuse the variables and methods of the Parent class.
+
+b. Which parts of the lab are examples of polymorphism?
+
+Polymorphism occurs when calling the Attack() method, as any Type (child) of the Pokemon (Parent) class can use the method, but within each Type (child), there is a specific Attack() method that applies only to them, overriding the Pokemon (Parent) class Attack() method.
+
